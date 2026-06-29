@@ -51,32 +51,32 @@ Below are direct video demonstrations of RiskTrace's core functionalities, showc
 ### 1. Registration, Organization & Site Setup
 The onboarding process includes secure email verification. Users can create their Organization and register their first Domain.
 <br/>
-![](docs/videos/1_auth_and_org_and_site_creation.mp4)
+<video src="https://github.com/oubaidboussaidi/RiskTrace/raw/main/docs/videos/1_auth_and_org_and_site_creation.mp4" width="100%" controls></video>
 
 ### 2. Multi-Factor Authentication (2FA)
 Demonstrates the integration of TOTP. Users scan the generated QR code with Google Authenticator to secure their RiskTrace accounts.
 <br/>
-![](docs/videos/2_auth_using_2_fa.mp4)
+<video src="https://github.com/oubaidboussaidi/RiskTrace/raw/main/docs/videos/2_auth_using_2_fa.mp4" width="100%" controls></video>
 
 ### 3. API Key & Tracker Integration
 Shows how an analyst generates a secure API key and embeds the `tracker.js` snippet into their client website to initiate telemetry ingestion.
 <br/>
-![](docs/videos/3_api_key_implementation_using_a_test_site.mp4)
+<video src="https://github.com/oubaidboussaidi/RiskTrace/raw/main/docs/videos/3_api_key_implementation_using_a_test_site.mp4" width="100%" controls></video>
 
 ### 4. Live Tail Dashboard & ML Analytics
 The core analyst view. Incoming logs are streamed in real-time via SSE. The ML Analytics tab provides full visibility into the AI's internal metrics and the anomaly score distributions.
 <br/>
-![](docs/videos/4_dash_board_and_ml_analytics_with_live_tail.mp4)
+<video src="https://github.com/oubaidboussaidi/RiskTrace/raw/main/docs/videos/4_dash_board_and_ml_analytics_with_live_tail.mp4" width="100%" controls></video>
 
 ### 5. Incident Lifecycle & Alert Escalation
 When the Isolation Forest flags a session as anomalous, an alert is generated. Analysts can escalate this incident, instantly triggering a formatted email notification to the site owner.
 <br/>
-![](docs/videos/5_incident_and_alert_escalation.mp4)
+<video src="https://github.com/oubaidboussaidi/RiskTrace/raw/main/docs/videos/5_incident_and_alert_escalation.mp4" width="100%" controls></video>
 
 ### 6. Admin Panel: Global Management
 Platform administrators have dedicated views to consult user roles, enforce suspensions, and completely delete accounts from the ecosystem.
 <br/>
-![](docs/videos/6_admin_user_panel.mp4)
+<video src="https://github.com/oubaidboussaidi/RiskTrace/raw/main/docs/videos/6_admin_user_panel.mp4" width="100%" controls></video>
 
 ## Repository Structure
 
