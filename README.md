@@ -84,9 +84,9 @@ RiskTrace is organized as a multi-repository ecosystem, separating frontend, bac
 
 | Repository | Description |
 |---|---|
-| [**RiskTraceFrontend**](./RiskTraceFrontend) | An Angular 18 Single Page Application featuring a scalable, feature-based architecture (`core/`, `shared/`, `features/`) and a sleek, modern UI utilizing SCSS and Lucide icons. |
-| [**RiskTraceBackend**](./RiskTraceBackend) | A suite of 6 independent Spring Boot 3 microservices handling API Gateway routing, Eureka Discovery, Users, Sites, Logs, and Alerts. |
-| [**RiskTraceML**](./RiskTraceML) | A Python/FastAPI anomaly detection engine, powered by scikit-learn and optimized via K-Means dataset distillation to eliminate false negatives. |
+| [**RiskTrace-Frontend**](./RiskTrace-Frontend) | An Angular 18 Single Page Application featuring a scalable, feature-based architecture (`core/`, `shared/`, `features/`) and a sleek, modern UI utilizing SCSS and Lucide icons. |
+| [**RiskTrace-Backend**](./RiskTrace-Backend) | A suite of 6 independent Spring Boot 3 microservices handling API Gateway routing, Eureka Discovery, Users, Sites, Logs, and Alerts. |
+| [**RiskTrace-MachineLearning**](./RiskTrace-MachineLearning) | A Python/FastAPI anomaly detection engine, powered by scikit-learn and optimized via K-Means dataset distillation to eliminate false negatives. |
 
 ## Architecture Design
 

@@ -1,0 +1,9 @@
+[submodule "RiskTrace-Frontend"]
+	path = RiskTrace-Frontend
+	url = https://github.com/oubaidboussaidi/RiskTrace-Frontend.git
+[submodule "RiskTrace-Backend"]
+	path = RiskTrace-Backend
+	url = https://github.com/oubaidboussaidi/RiskTrace-Backend.git
+[submodule "RiskTrace-MachineLearning"]
+	path = RiskTrace-MachineLearning
+	url = https://github.com/oubaidboussaidi/RiskTrace-MachineLearning.git
