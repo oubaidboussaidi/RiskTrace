@@ -51,32 +51,65 @@ Below are direct video demonstrations of RiskTrace's core functionalities, showc
 ### 1. Registration, Organization & Site Setup
 The onboarding process includes secure email verification. Users can create their Organization and register their first Domain.
 <br/>
-[▶ Play Video Demonstration: Registration, Organization & Site Setup](https://github.com/oubaidboussaidi/RiskTrace/blob/main/docs/videos/1_auth_and_org_and_site_creation.mp4)
+<details>
+  <summary><b>▶ Click to expand video demonstration</b></summary>
+  <br/>
+  <img src="docs/gifs/1_auth_and_org_and_site_creation.gif" alt="Registration, Organization & Site Setup" width="100%">
+</details>
 
 ### 2. Multi-Factor Authentication (2FA)
 Demonstrates the integration of TOTP. Users scan the generated QR code with Google Authenticator to secure their RiskTrace accounts.
 <br/>
-[▶ Play Video Demonstration: Multi-Factor Authentication (2FA)](https://github.com/oubaidboussaidi/RiskTrace/blob/main/docs/videos/2_auth_using_2_fa.mp4)
+<details>
+  <summary><b>▶ Click to expand video demonstration</b></summary>
+  <br/>
+  <img src="docs/gifs/2_auth_using_2_fa.gif" alt="Multi-Factor Authentication (2FA)" width="100%">
+</details>
 
 ### 3. API Key & Tracker Integration
 Shows how an analyst generates a secure API key and embeds the `tracker.js` snippet into their client website to initiate telemetry ingestion.
 <br/>
-[▶ Play Video Demonstration: API Key & Tracker Integration](https://github.com/oubaidboussaidi/RiskTrace/blob/main/docs/videos/3_api_key_implementation_using_a_test_site.mp4)
+<details>
+  <summary><b>▶ Click to expand video demonstration</b></summary>
+  <br/>
+  <img src="docs/gifs/3_api_key_implementation_using_a_test_site.gif" alt="API Key & Tracker Integration" width="100%">
+</details>
 
 ### 4. Live Tail Dashboard & ML Analytics
 The core analyst view. Incoming logs are streamed in real-time via SSE. The ML Analytics tab provides full visibility into the AI's internal metrics and the anomaly score distributions.
 <br/>
-[▶ Play Video Demonstration: Live Tail Dashboard & ML Analytics](https://github.com/oubaidboussaidi/RiskTrace/blob/main/docs/videos/4_dash_board_and_ml_analytics_with_live_tail.mp4)
+<details>
+  <summary><b>▶ Click to expand video demonstration</b></summary>
+  <br/>
+  <img src="docs/gifs/4_dash_board_and_ml_analytics_with_live_tail.gif" alt="Live Tail Dashboard & ML Analytics" width="100%">
+</details>
 
 ### 5. Incident Lifecycle & Alert Escalation
 When the Isolation Forest flags a session as anomalous, an alert is generated. Analysts can escalate this incident, instantly triggering a formatted email notification to the site owner.
 <br/>
-[▶ Play Video Demonstration: Incident Lifecycle & Alert Escalation](https://github.com/oubaidboussaidi/RiskTrace/blob/main/docs/videos/5_incident_and_alert_escalation.mp4)
+<details>
+  <summary><b>▶ Click to expand video demonstration</b></summary>
+  <br/>
+  <img src="docs/gifs/5_incident_and_alert_escalation.gif" alt="Incident Lifecycle & Alert Escalation" width="100%">
+</details>
 
 ### 6. Admin Panel: Global Management
 Platform administrators have dedicated views to consult user roles, enforce suspensions, and completely delete accounts from the ecosystem.
 <br/>
-[▶ Play Video Demonstration: Admin Panel: Global Management](https://github.com/oubaidboussaidi/RiskTrace/blob/main/docs/videos/6_admin_user_panel.mp4)
+<details>
+  <summary><b>▶ Click to expand video demonstration</b></summary>
+  <br/>
+  <img src="docs/gifs/6_admin_user_panel.gif" alt="Admin Panel: Global Management" width="100%">
+</details>
+
+### 7. Admin Panel: Organizations & Logs
+Allows platform administrators to manage registered organizations globally and inspect system-wide activity logs.
+<br/>
+<details>
+  <summary><b>▶ Click to expand video demonstration</b></summary>
+  <br/>
+  <img src="docs/gifs/7_admin_organizations_and_logs.gif" alt="Admin Panel: Organizations & Logs" width="100%">
+</details>
 
 ## Repository Structure
 
